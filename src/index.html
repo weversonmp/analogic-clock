@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/dist/output.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Analogic Clock</title>
+	</head>
+	<body class="bg-blue-900">
+		<main class="flex h-screen -space-x-1 overflow-hidden">
+			<div class="clock-body flex relative m-auto h-96 w-96 rounded-full ring-8 ring-black bg-white">
+				<div class="absolute w-full h-full text-3xl rotate-w30 text-center font-bold numbers number-1">1</div>
+				<div class="absolute w-full h-full text-3xl rotate-w60 text-center font-bold numbers number-2">2</div>
+				<div class="absolute w-full h-full text-3xl rotate-w90 text-center font-bold numbers number-3">3</div>
+				<div class="absolute w-full h-full text-3xl rotate-w120 text-center font-bold numbers number-4">4</div>
+				<div class="absolute w-full h-full text-3xl rotate-w150 text-center font-bold numbers number-5">5</div>
+				<div class="absolute w-full h-full text-3xl rotate-w180 text-center font-bold numbers number-6">6</div>
+				<div class="absolute w-full h-full text-3xl rotate-w210 text-center font-bold numbers number-7">7</div>
+				<div class="absolute w-full h-full text-3xl rotate-w240 text-center font-bold numbers number-8">8</div>
+				<div class="absolute w-full h-full text-3xl rotate-w270 text-center font-bold numbers number-9">9</div>
+				<div class="absolute w-full h-full text-3xl rotate-w300 text-center font-bold numbers number-10">10</div>
+				<div class="absolute w-full h-full text-3xl rotate-w330 text-center font-bold numbers number-11">11</div>
+				<div class="absolute w-full h-full text-3xl rotate-w360 text-center font-bold numbers number-12">12</div>
+
+				<div class="flex justify-center m-auto w-4 h-4 rounded-full bg-red-800">
+					<div class="seconds-pointer flex z-30 m-1 absolute h-40 w-1 bg-red-800"></div>
+					<div class="minutes-pointer flex z-10 m-1 absolute h-40 w-2 bg-black"></div>
+					<div class="hour-pointer flex z-20 m-1 absolute h-36 w-2 bg-black"></div>
+				</div>
+
+				<div class="absolute w-full h-full text-1xl rotate-wbar1 text-center numbers number-2">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar2 text-center numbers number-2">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar3 text-center numbers number-3">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar5 text-center numbers number-6">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar6 text-center numbers number-7">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar7 text-center numbers number-8">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar9 text-center numbers number-10">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar10 text-center numbers number-11">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar11 text-center numbers number-12">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar13 text-center numbers number-2">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar14 text-center numbers number-3">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar15 text-center numbers number-4">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar17 text-center numbers number-6">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar18 text-center numbers number-7">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar19 text-center numbers number-8">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar21 text-center numbers number-10">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar22 text-center numbers number-11">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar23 text-center numbers number-12">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar25 text-center numbers number-2">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar26 text-center numbers number-3">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar27 text-center numbers number-4">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar29 text-center numbers number-6">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar30 text-center numbers number-7">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar31 text-center numbers number-8">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar33 text-center numbers number-10">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar34 text-center numbers number-11">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar35 text-center numbers number-12">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar37 text-center numbers number-2">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar38 text-center numbers number-3">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar39 text-center numbers number-4">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar41 text-center numbers number-6">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar42 text-center numbers number-7">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar43 text-center numbers number-8">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar45 text-center numbers number-10">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar46 text-center numbers number-11">|</div>
+				<div class="absolute w-full h-full text-1xl rotate-wbar47 text-center numbers number-12">|</div>
+			</div>
+		</main>
+		<script src="./script.js"></script>
+	</body>
+</html>
